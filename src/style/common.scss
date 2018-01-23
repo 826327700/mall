@@ -1,0 +1,65 @@
+//主题颜色
+$primary-color: #408fc5;
+//默认文字颜色
+$default-text-color: #657180;
+//一号辅助色 （价格、部分按钮）
+$secondary-color: #f15151;
+//二号辅助色 （品牌名称）
+$secondary-color2: #817006;
+//三号辅助色 （销量）
+$secondary-color3: #c19075;
+//三号辅助色 （商品hover边框）
+$secondary-color4: #FF0036;
+//全局主体宽度
+$container-width:1200px;
+
+.xjk-container{
+    width: $container-width;
+    margin: 0 auto;
+    height: 100%;
+}
+.xjk-main-wrap{
+    position: relative;
+}
+.xjk-white-wrap{
+    background-color: #fff;
+}
+@for $i from 1 through 4 {
+    .xjk-m-t-#{$i}0 {
+        margin-top: #{$i}0px;
+    }
+}
+.xjk-text-12{
+    font-size: 12px;
+}
+.xjk-b-top{
+    border-top:1px solid #eee
+}
+//飞入购车红点
+.add-port{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    opacity: 1;
+    transform: scale(1);
+    transition: left 1s,top 1s cubic-bezier(.3,-.67,.2,.9),opacity 1s,height 1s,width 1s,opacity 2s;;
+    animation: spin 0.1s linear 0.1s infinite
+};
+@keyframes spin {
+    0%   { transform: rotate(-360deg); }
+    100% { transform: rotate(0deg); }
+}
+.cart-badge .ivu-badge-count{
+    top:-5px;
+    -webkit-transform: translateX(0%) scale(0.8);
+    transform: translateX(0%) scale(0.8);
+}
+.cart-bubble{
+    position: fixed;
+    color:#fff;
+    font-size: 24px;
+    transition: all 1s ease-out;
+    opacity:1;
+    transform: scale(1)
+}

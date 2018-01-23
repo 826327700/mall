@@ -1,0 +1,2 @@
+webpackJsonp([5],{WqTW:function(t,e){},t4jn:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o={data:function(){return{star:5,invoice:"1"}},mounted:function(){document.documentElement.scrollTop=0,document.body.scrollTop=0},methods:{}},r={render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"xjk-container order-wrap"},[e("router-view")],1)},staticRenderFns:[]};var c=n("X4nt")(o,r,!1,function(t){n("WqTW")},"data-v-782c4f40",null);e.default=c.exports}});
+//# sourceMappingURL=5.d0f6951bb1b829d21421.js.map

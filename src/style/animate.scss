@@ -1,0 +1,27 @@
+//右侧渐显滑入，向左滑动移除
+.slide-right-10-enter{
+    transform: translate3d(10%, 0, 0);
+    opacity: 0;
+};
+.slide-right-10-enter-active{
+    transition: all 0.5s;
+}
+.slide-right-10-leave-active{
+    transition: all 0.5s;
+    opacity: 0;
+
+};
+
+//底部向上渐显滑入，向左滑动移除
+.slide-bottom-10-enter{
+    transform: translate3d(0, 10%, 0);
+    opacity: 0;
+};
+.slide-bottom-10-enter-active{
+    transition: all 1s;
+}
+.slide-bottom-10-leave-active{
+    transition: transform 0.3s;
+    transform: translate3d(0, -10%, 0)
+};
+
