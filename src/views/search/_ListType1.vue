@@ -22,7 +22,7 @@
             </div>
             <div class="item-button">
                 <div class="button-bg" @click="$router.push('/shop')">进入店铺</div>
-                <div class="button-bg" @click="addshopcart(item.pic)">加入购物车</div>
+                <div class="button-bg" @click="addshopcart($event,item.pic)">加入购物车</div>
                 <div class="button-nobg"><i class="iconfont icon-dianpu"></i>关注店铺</div>
                 <div class="button-nobg"><i class="iconfont icon-dianpu"></i>收藏商品</div>
             </div>
@@ -61,8 +61,8 @@
             },100)
         },
         methods: {
-            addshopcart(src){
-                util.addcart(src,()=>{
+            addshopcart(event,src){
+                util.addcart(event,src,()=>{
                     this.$store.state.shopCart.total++
                 })
             }

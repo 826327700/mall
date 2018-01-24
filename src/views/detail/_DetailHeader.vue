@@ -64,7 +64,7 @@
                         <div class="buy-button" @click="order">
                             购买商品
                         </div>
-                        <div class="car-button" @click="addToCart('static/image/detail/detail_pic.jpg')">
+                        <div class="car-button" @click="addToCart($event,'static/image/detail/detail_pic.jpg')">
                             加入购物车
                         </div>
                     </div>
@@ -90,8 +90,10 @@
             order(){
                 this.$router.push('/order')
             },
-            addToCart(src){
-                util.addcart(src)
+            addToCart(event,src){
+                util.addcart(event,src,()=>{
+                    this.$store.state.shopCart.total++
+                })
             }
         }
     }

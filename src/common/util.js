@@ -25,7 +25,7 @@ export const offset=function(curEle){
 }
 
 //生成加入购物车动画
-export const addcart=function(src,call){
+export const addcart=function(event,src,call){
     //生成飞入曲线动画
     let port=document.createElement('img')
     let startX=offset(event.currentTarget).left+(event.currentTarget.offsetWidth/2)
