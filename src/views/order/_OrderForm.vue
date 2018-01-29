@@ -9,7 +9,7 @@
                         <span>广东深圳</span><span>（加菲猫 收）</span> <em>默认地址</em>
                     </div>
                     <div class="item-body">
-                        <span>南山区</span><span>科技园南区</span><span>高新南六道16号805室</span><span>15212973193</span>
+                        <span>南山区</span><span>科技园南区</span><span>xxxxxx道xxxx号xxx室</span><span>15212973193</span>
                     </div>
                     <div class="edit">
                         修改
@@ -20,7 +20,7 @@
                         <span>广东深圳</span><span>（加菲猫 收）</span> <em>默认地址</em>
                     </div>
                     <div class="item-body">
-                        <span>南山区</span><span>科技园南区</span><span>高新南六道16号805室</span><span>15212973193</span>
+                        <span>南山区</span><span>科技园南区</span><span>xxxxxx道xxxx号xxx室</span><span>15212973193</span>
                     </div>
                     <div class="edit">
                         修改
@@ -31,7 +31,7 @@
                         <span>广东深圳</span><span>（加菲猫 收）</span> <em>默认地址</em>
                     </div>
                     <div class="item-body">
-                        <span>南山区</span><span>科技园南区</span><span>高新南六道16号805室</span><span>15212973193</span>
+                        <span>南山区</span><span>科技园南区</span><span>xxxxxx道xxxx号xxx室</span><span>15212973193</span>
                     </div>
                     <div class="edit">
                         修改
@@ -42,7 +42,7 @@
                         <span>广东深圳</span><span>（加菲猫 收）</span> <em>默认地址</em>
                     </div>
                     <div class="item-body">
-                        <span>南山区</span><span>科技园南区</span><span>高新南六道16号805室</span><span>15212973193</span>
+                        <span>南山区</span><span>科技园南区</span><span>xxxxxx道xxxx号xxx室</span><span>15212973193</span>
                     </div>
                     <div class="edit">
                         修改
@@ -219,7 +219,7 @@
         <div class="order-total-box">
             <div class="order-total-wrap">
                 <p>实付款：<em class="price">￥59</em></p>
-                <p>寄送至：广东 深圳 南山区 科技园南区 高新南六道16号805室</p>
+                <p>寄送至：广东 深圳 南山区 科技园南区 xxxxxx道xxxx号xxx室</p>
                 <p>收件人：刘忆 15212973193</p>
             </div>
             <div class="order-total-button">

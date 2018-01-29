@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Layout from '../views/Layout'
+import page404 from '../views/404'
 import routers from './routers'
 import iView from 'iview';
 import store from '../vuex/store'
@@ -14,6 +15,11 @@ const router =new Router({
             name: 'layout',
             component: Layout,
             children:routers
+        },
+        {
+            path: '*',
+            name: '404',
+            component: page404,
         }
     ]
 })

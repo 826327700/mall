@@ -36,10 +36,13 @@
             <div class="xjk-top-logo-search">
                 <div class="logo-wrap">
                     <router-link to="/">
-                        <img src="../../assets/image/logo.jpg" alt="">
+                        <img src="../../assets/image/shop_logo.png" alt="">
                     </router-link>
                 </div>
-                <div class="search-wrap" v-if="topType=='search'">
+                <div class="follow-shop">
+                    <span><i class="iconfont icon-dianpu"></i>关注店铺</span>
+                </div>
+                <div class="search-wrap">
                     <div>
                         <input class="search-input" type="text" @keyup.13="goSearch" autocomplete="on">
                         <div class="search-button" @click="goSearch">
@@ -185,16 +188,26 @@
             margin-top: 30px;
             min-height: 60px;
             display: flex;
-            justify-content:center;
+            justify-content:space-between;
+            align-items: center;
             position: relative;
             .logo-wrap{
-                position: absolute;
-                left: 0;
-                width: 270px;
-                height: 60px;
+                width: 300px;
+                height: 70px;
                 overflow: hidden;
                 img{
                     width: 100%;
+                }
+            }
+            .follow-shop{
+                flex: 1;
+                margin-top: 25px;
+                span{
+                    cursor: pointer;
+                    color: $secondary-color3;
+                }
+                i{
+                    margin-right: 5px;
                 }
             }
             .search-wrap{

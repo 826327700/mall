@@ -91,9 +91,7 @@
                 this.$router.push('/order')
             },
             addToCart(event,src){
-                util.addcart(event,src,()=>{
-                    this.$store.state.shopCart.total++
-                })
+                util.addcart(event,src)
             }
         }
     }

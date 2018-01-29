@@ -20,7 +20,7 @@
             </Tooltip>
             <div class="cart-modal" slot="content">
                 <div class="add-successful-tip">
-                    <Icon type="ios-checkmark-outline"></Icon><span>成功加入购车！</span><div class="button-bg" @click="goShopcart">去结算{{showCart}}</div>
+                    <Icon type="ios-checkmark-outline"></Icon><span>成功加入购车！</span><div class="button-bg" @click="goShopcart">去结算</div>
                 </div>
                 <!--类似商品推荐-->
                 <div class="shop-recommend">

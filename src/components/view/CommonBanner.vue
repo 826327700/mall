@@ -22,9 +22,9 @@
                             <i class="nav-icon-1"></i><span class="title-text">原辅料</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">原辅料</router-link>
-                            <router-link to="/key">制药辅料</router-link>
-                            <router-link to="/key">药包材</router-link>
+                            <router-link to="/search">原辅料</router-link>
+                            <router-link to="/search">制药辅料</router-link>
+                            <router-link to="/search">药包材</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>
@@ -35,9 +35,9 @@
                             <i class="nav-icon-2"></i><span class="title-text">药品</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">解热镇痛</router-link>
-                            <router-link to="/key">呼吸系统</router-link>
-                            <router-link to="/key">消化系统</router-link>
+                            <router-link to="/search">解热镇痛</router-link>
+                            <router-link to="/search">呼吸系统</router-link>
+                            <router-link to="/search">消化系统</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>
@@ -48,8 +48,8 @@
                             <i class="nav-icon-3"></i><span class="title-text">中药饮片</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">药食同源</router-link>
-                            <router-link to="/key">药材</router-link>
+                            <router-link to="/search">药食同源</router-link>
+                            <router-link to="/search">药材</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>
@@ -60,8 +60,8 @@
                             <i class="nav-icon-4"></i><span class="title-text">食品类别</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">保健食品</router-link>
-                            <router-link to="/key">普通食品</router-link>
+                            <router-link to="/search">保健食品</router-link>
+                            <router-link to="/search">普通食品</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>
@@ -72,8 +72,8 @@
                             <i class="nav-icon-5"></i><span class="title-text">医疗器械</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">家庭护理</router-link>
-                            <router-link to="/key">医用器械</router-link>
+                            <router-link to="/search">家庭护理</router-link>
+                            <router-link to="/search">医用器械</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>
@@ -84,7 +84,7 @@
                             <i class="nav-icon-6"></i><span class="title-text">化妆品</span><span class="arrow-right"><Icon type="ios-arrow-right"></Icon></span>
                         </div>
                         <div class="sub-title">
-                            <router-link to="/key">女性护理</router-link>
+                            <router-link to="/search">女性护理</router-link>
                         </div>
                         <div class="more-sub-nav-warp">
                             <div class="left-line"></div>

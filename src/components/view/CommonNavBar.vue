@@ -6,13 +6,27 @@
             </div>
             <div class="nav-list-wrap">
                 <router-link to="/">首页</router-link>
-                <router-link to="/1">特卖会</router-link>
-                <router-link to="/2">药品批发</router-link>
-                <router-link to="/3">供应商</router-link>
-                <router-link to="/4">药品资讯</router-link>
-                <router-link to="/5">药帮帮</router-link>
-                <router-link to="/6">求购信息</router-link>
-                <router-link to="/7">电子首营</router-link>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">特卖会</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">药品批发</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">供应商</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">药品资讯</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">药帮帮</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">求购信息</a>
+                </Tooltip>
+                <Tooltip content="即将上线，敬请期待" placement="top">
+                    <a href="javascript:;">电子首营</a>
+                </Tooltip>
             </div>
         </div>
     </div>

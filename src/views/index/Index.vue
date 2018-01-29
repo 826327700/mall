@@ -20,7 +20,7 @@
                     <div class="shop-item">
                         <div class="shop-item-info">
                             <div class="info-pic-wrap">
-                                <router-link to="/shop">
+                                <router-link to="/shop/1">
                                 <img v-lazy="'static/image/index/jiuzhitang.png'" alt="">
                                 </router-link>
                             </div>
@@ -46,7 +46,7 @@
                     <div class="shop-item">
                         <div class="shop-item-info">
                             <div class="info-pic-wrap">
-                                <router-link to="/shop">
+                                <router-link to="/shop/1">
                                 <img v-lazy="'static/image/index/renhetang.png'" alt="">
                                 </router-link>
                             </div>

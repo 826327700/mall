@@ -21,7 +21,7 @@
                 <p>价格：<span>会员可见</span></p>
             </div>
             <div class="item-button">
-                <div class="button-bg" @click="$router.push('/shop')">进入店铺</div>
+                <div class="button-bg" v-if="showShopBtn" @click="$router.push('/shop/1')">进入店铺</div>
                 <div class="button-bg" @click="addshopcart($event,item.pic)">加入购物车</div>
                 <div class="button-nobg"><i class="iconfont icon-dianpu"></i>关注店铺</div>
                 <div class="button-nobg"><i class="iconfont icon-dianpu"></i>收藏商品</div>
@@ -38,6 +38,12 @@
 <script>
     import * as util from '@/common/util'
     export default {
+        props:{
+            showShopBtn:{
+                type:Boolean,
+                default:true
+            }
+        },
         data () {
             return {
                 list:{

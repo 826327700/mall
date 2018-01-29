@@ -8,7 +8,7 @@
                 <div class="footer-row">
                     <div class="help-info">
                         <h4>帮助中心</h4>
-                        <p>服务热线：<span>0755-83521150</span></p>
+                        <p>服务热线：<span>0755-xxxxxxx</span></p>
                         <p class="xjk-text-12">周一到周六：09:00 - 21:00</p>
                     </div>
                     <div class="link-grid">
@@ -24,7 +24,7 @@
                         </div>
                         <div class="link-box">
                             <div class="link-title">
-                                鑫泉保障
+                                平台保障
                             </div>
                             <div class="link-list">
                                 <router-link to="/link">
@@ -57,7 +57,7 @@
                                     商家中心
                                 </router-link>
                                 <router-link to="/link">
-                                    鑫泉规则
+                                    平台规则
                                 </router-link>
                                 <router-link to="/link">
                                     物流服务
@@ -70,8 +70,8 @@
                     </div>
                 </div>
                 <div class="xjk-footer-copyright">
-                    <p>互联网药品信息服务资质证书：<a href="">(粤)-经营性-2017-0044</a></p>
-                    <p>© 2016-2017 深圳鑫泉健康网络有限公司 版权所有 <a href="">粤ICP备17132607号</a></p>
+                    <p>互联网药品信息服务资质证书：<a href="">(粤)-经营性-2017-xxxx</a></p>
+                    <p>© 2016-2017 深圳xxxxxxxx网络有限公司 版权所有 <a href="">粤ICP备xxxxxxxx号</a></p>
                 </div>
             </div>
         </div>
