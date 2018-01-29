@@ -1,7 +1,7 @@
 {
-  "name": "xjk-mall",
+  "name": "mall",
   "version": "1.0.0",
-  "description": "xjk-mall project",
+  "description": "一个基于vue2.0的单页面电商网站布局演示",
   "author": "龙通印 <826327700@qq.com>",
   "private": true,
   "scripts": {

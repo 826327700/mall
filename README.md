@@ -1,6 +1,8 @@
-# xjk-mall
+# XXX医药电商网
 
-> xjk-mall project
+> 一个基于vue2.0的单页面电商网站布局演示
+
+[在线演示](https://826327700.github.io/mall/dist/ "在线演示")
 
 ## Build Setup
 
